@@ -4,7 +4,7 @@ function best() {
     if (homecount > guestcount) {
         document.getElementById("best").textContent = "Team 1 is winning!"
     } else if (guestcount > homecount) {
-        document.getElementById("best").textContent = "Team 1 is winning";
+        document.getElementById("best").textContent = "Team 2 is winning";
     } else {
         document.getElementById("best").textContent = "TIE";      
     }
