@@ -13,7 +13,7 @@ body {
 .wrapper {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
+  gap: 15px;
 }
 .score {
   background-color: black;
@@ -26,13 +26,13 @@ body {
 
 }
 .title {
-  font-size: clamp(30px, 15vw, 90px);
+  font-size: clamp(30px, 10vw, 90px);
   margin-bottom: 0;
 }
 .btn-wrapper {
   display: flex;
   justify-content: space-around;
-  gap: 12px;
+  gap: 5px;
 }
 .btn-wrapper button {
   background-color: transparent;
