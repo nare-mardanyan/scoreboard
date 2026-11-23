@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <h1 id="best"></h1>
     <div class="wgirapper">
         <div class="home">
             <h1 class="title">HOME</h1>
             <h2 id="home-score" class="score">0</h2>
-                <div  class="btn-wrapper">
-                    <button id="add-1-to_home" onclick="addOneToHome()">+ 1</button>
-                    <button id="add-2-to__home" onclick="addTwoToHome()">+ 2</button>
-                    <button id="add-3-to__home" onclick="addThreeToHome()">+ 3</button>
-                </div>
+            <div class="btn-wrapper">
+                <button id="add-1-to_home" onclick="addOneToHome()">+ 1</button>
+                <button id="add-2-to__home" onclick="addTwoToHome()">+ 2</button>
+                <button id="add-3-to__home" onclick="addThreeToHome()">+ 3</button>
+            </div>
         </div>
         <div class="guest">
-            <h1 class="title">GUEST</h1>
+            <h1 class="title">Away</h1>
             <h2 id="guest-score" class="score">0</h2>
             <div class="btn-wrapper">
-                <button id="add-1-to_guest"  onclick="addOneToGuest()">+ 1</button>
-                <button id="add-2-to_guest"  onclick="addTwoToGuest()">+ 2</button>
-                <button id="add-3-to_guest"  onclick="addThreeToGuest()">+ 3</button>
+                <button id="add-1-to_guest" onclick="addOneToGuest()">+ 1</button>
+                <button id="add-2-to_guest" onclick="addTwoToGuest()">+ 2</button>
+                <button id="add-3-to_guest" onclick="addThreeToGuest()">+ 3</button>
             </div>
         </div>
     </div>
     <button id="restart" onclick="restart()">RESTART</button>
     <script src="./js/index.js"></script>
 </body>
+
 </html>
